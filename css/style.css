@@ -1,0 +1,118 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+section {
+    width: 1390px;
+    margin: 0 auto;
+    background-color:#F96241;
+    position: relative;
+    
+}
+
+h1,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+h1 {
+    margin: 174px 200px 0 0;
+    font-weight: 600;
+    font-size: 60px;
+    
+    color: #FFFF;
+}
+
+.flex-content-p {
+    margin: 30px 0 0 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-right: 270px;
+    color: #FFFF;
+}
+
+.container {
+    padding: 60px 60px 60px 125px ;
+    margin: 0 auto;
+    max-width: 1110px;
+    background-color: #F96241;
+    position: relative;
+    
+   
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: 900px;
+   
+}
+
+.flex-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 4;
+}
+
+nav a{
+    margin-left: 395px;
+    z-index: 4;
+   
+}
+
+
+
+.go-to::after {
+    content: ' - ➢';  
+    cursor: pointer; 
+    z-index: 3;
+}
+
+.flex-content-text{
+    width: 591px;
+    flex: 1 1 auto;
+    z-index: 3;
+}
+
+.footer-logo, .link{
+    display: flex;
+    margin-right: 30px;
+    z-index: 3;
+}
+
+.foto {
+    position: absolute;
+    top: 255px;
+    left: 580px;
+    width: 765px;
+    height: 765px;  
+    z-index: 3; 
+}
+
+.fon {
+    position: absolute;
+   
+    top: -600px;
+    left: -500px;
+    z-index: 1;
+}
+.style-fon {
+    font-weight: 700;
+    font-size: 1900px;
+    color: chartreuse;
+    opacity: .2;
+    transform: rotate(47deg);
+    
+}
